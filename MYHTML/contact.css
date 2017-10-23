@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    /* The image used */
+    background-image: url("marble.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header a:visited{
+    color:black;
+}
+
+}
+.header{
+    color:solid black;
+    font-size:18px;
+    font-family:'Droid Serif', serif;
+}
+
+h1{
+    border-top:2px solid black;
+    color:solid black;
+    font-family:'Anton', sans-serif;
+    font-size:80px;
+    border-bottom:2px solid black;
+}
