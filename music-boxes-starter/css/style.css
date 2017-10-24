@@ -1,0 +1,86 @@
+body, html {
+    /* The image used */
+    background-color:black;
+}
+
+
+.body{
+    text-align:center;
+
+}
+h1{
+color:aqua;
+font-family: 'Playball', cursive;
+font-size:120px;
+text-align:center;
+}
+
+#instrument{
+    display:flex;
+    height:auto;
+    width:100%;
+    /* border: 1px solid black; */
+    justify-content:center;
+}
+
+.box{
+    height:150px;
+    margin:5px;
+    width:50px;
+    border:3px solid white;
+}
+
+#c.box{
+    background-color:royalblue;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#d.box{
+    background-color:limegreen;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#e.box{
+    background-color:purple;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#f.box{
+    background-color:teal;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#g.box{
+    background-color:gray;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#a.box{
+    background-color:coral;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#b.box{
+    background-color:crimson;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:24px;
+    color:white;
+}
+
+footer{
+    color:hotpink;
+    font-family: 'Playball', cursive;
+    font-size:15px;
+}
