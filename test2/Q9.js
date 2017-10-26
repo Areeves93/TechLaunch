@@ -9,6 +9,6 @@
 
 
 var numPassengers=2;
-var countMessage= "Attention: There are now " + numPassengers + " Passengers on the train!";
+var countMessage= "Attention: There are now " + (numPassengers+= 1) + " Passengers on the train!";
 
 console.log(countMessage)

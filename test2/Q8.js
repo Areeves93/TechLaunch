@@ -7,6 +7,7 @@
 // Note: you should have two console logs
 
 var numPassengers=2;
-
+numPassengers += 3
+numPassengers--
 
 console.log(numPassengers)
