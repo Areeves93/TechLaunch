@@ -11,7 +11,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .header a:visited{
     color:black;
 }
@@ -21,12 +20,33 @@ body, html {
     color:solid black;
     font-size:18px;
     font-family:'Droid Serif', serif;
+    
+    /* border:1px solid black; */
 }
 
 h1{
     border-top:2px solid black;
     color:solid black;
     font-family:'Anton', sans-serif;
-    font-size:80px;
+    font-size:130px;
     border-bottom:2px solid black;
 }
+
+p{
+    color:black;
+    font-family:'Droid Serif', serif;
+    font-size:20px;
+    
+}
+
+ a{
+     color:solid black;
+     font-family:'Droid Serif', serif;
+     font-size:18px;
+ }
+
+
+ a:link, a:visited{
+    background-color:solid black;
+     color:black;
+ }
