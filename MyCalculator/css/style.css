@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.mainContainer{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer > img{
+    margin: 3em;
+    width: 400px;
+    height: 500px;
+    z-index: 0;
+}
+
+.display{
+    position: absolute;
+    border: 1px solid black;
+    width: 306px;
+    height: 13.2%;
+    transform: translateY(-188%);
+    text-align:right;
+    font-size:64px;
+    z-index: 1;
+}
+
+.buttonContainer {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 320px;
+    height: 41%;
+    transform: translateY(35%);
+    z-index: 1;
+
+}
+
+.button{
+    border:1px solid black;
+    margin: 0;
+    height: 24%;
+    width: 24%;
+    z-index: 2;
+}
+
+.button #off{
+    margin:0;
+    height:24%;
+    width:25%
+}

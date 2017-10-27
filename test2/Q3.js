@@ -9,6 +9,6 @@
 // using the .length property
 
 
-var longString= "overintellectualization ";
+var longString= "I hope that I pass this test today ";
 
-console.log('The length of longString is' +String.length);
+console.log('The length of longString is ' + String.length);
