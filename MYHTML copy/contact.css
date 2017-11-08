@@ -8,10 +8,29 @@ body, html {
 
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-size: cover;
 }
+a{
+    color:solid black;
+    font-family:'Droid Serif', serif;
+    font-size:18px;
+}
 
+
+a:link, a:visited{
+   background-color:solid black;
+    color:black;
+}
+
+h1{
+    color:solid black;
+    font-family:'Anton', sans-serif;
+    font-size:80px;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+
+}
 /* Three columns side by side */
 .column {
     float: left;
@@ -25,7 +44,7 @@ body, html {
 @media (max-width: 650px) {
     .column {
         width: 100%;
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -48,6 +67,8 @@ body, html {
 
 .title {
     color: grey;
+    font-weight:bold;
+    font-family: 'Droid Serif', serif;s
 }
 
 .button {

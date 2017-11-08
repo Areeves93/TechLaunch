@@ -11,11 +11,11 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .header a:visited{
     color:black;
 }
 
-}
 .header{
     color:solid black;
     font-size:18px;
@@ -31,13 +31,28 @@ h1{
     font-size:130px;
     border-bottom:2px solid black;
 }
+input{
+    width:150px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:26px;
+    /* background:solid black; */
+    color:solid black;
+    border:1px solid black;
+}
+input:hover{
+    color:solid black;
+    background:solid black;
+    border:3px white;
 
+}
 p{
     color:black;
     font-family:'Droid Serif', serif;
     font-size:20px;
     
 }
+
 
  a{
      color:solid black;
