@@ -31,9 +31,9 @@ function displayManyGifs(response){
 
 searchForm.addEventListener('submit',function(event){
     event.preventDefault()
-
-    if(searchInput.value === '') return
     
-    results.innerHTML=''
+        if(searchInput.value === '') return
+        
+        results.innerHTML=''
     getGifs(searchInput.value,'search', displayManyGifs)
 })
