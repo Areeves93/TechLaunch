@@ -3,7 +3,7 @@ body{
 }
 
 .mainContainer{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     width: 100%;
     height: auto;
@@ -20,7 +20,7 @@ body{
 
 .display{
     position: absolute;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 306px;
     height: 13.2%;
     transform: translateY(-188%);
@@ -33,7 +33,7 @@ body{
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 320px;
     height: 41%;
     transform: translateY(35%);
@@ -42,7 +42,7 @@ body{
 }
 
 .button{
-    border:1px solid black;
+    /* border:1px solid black; */
     margin: 0;
     height: 24%;
     width: 24%;
