@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .post{
+        max-width:400px;
+        padding:1rem;
+        text-align:center;
+        box-shadow: 0px 2px 2px #171717;
+        margin-bottom: 1em;
+        margin: 0.5rem auto;
+
+
+    }
+</style>
+<body>
+    <div class="feed" id="feed">
+    </div>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script>
+
+    navigator.geolocation.getCurrentPosition(function(position) {
+  requestFeed (position.coords.latitude, position.coords.longitude);
+});
+
+function requestFeed(lat,long){
+    $.ajax({
+    url:'https://s3.amazonaws.com/victortestbucket1/mockdata.json?lat='+lat +"&long="+long,
+    success: function(response){
+    //   console.log(response);
+      for(var id in response){
+          console.log(response[id].message)
+          $("#feed").append("<div class= 'post'>" + response[id].message + "</div>" );
+      }
+      
+    }
+})
+
+
+}
+
+
+</script>
+</body>
+</html>
